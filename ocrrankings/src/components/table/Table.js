@@ -1,7 +1,8 @@
 import React from "react"
 import {Table} from "antd"
 
-import {dataSource, columns} from "../../data/results.json"
+import {dataSource} from "../../data/results.json"
+import {columns} from "../../data/columns"
 
 export const ResultsTable = () => {
 

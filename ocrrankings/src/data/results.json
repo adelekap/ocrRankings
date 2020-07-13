@@ -1,28 +1,4 @@
-{"columns" : [
-    { "title": "Name", "dataIndex": "name", "key": "name" },
-    {
-      "title": "Overall",
-      "dataIndex": "overall",
-      "key": "overall",
-      "defaultSortOrder": "descend"
-    },
-    {
-      "title": "Gender",
-      "dataIndex": "gender",
-      "key": "gender"
-    },
-    {
-      "title": "Age",
-      "dataIndex": "age",
-      "key": "age"
-    },
-    {
-      "title": "Points",
-      "dataIndex": "points",
-      "key": "points"
-    }
-  ],
-  "dataSource": [
+{"dataSource": [
     {
       "key": 1,
       "name": "Peter Ziska",
