@@ -1,23 +1,32 @@
 export const columns = [
-  { title: 'Name', dataIndex: 'name', key: 'name' },
   {
-    title: 'Overall',
-    dataIndex: 'overall',
-    key: 'overall',
+    title: "Name",
+    dataIndex: "name",
+    key: "name",
+    sorter: (a,b) => a.name.localeCompare(b.name)
   },
   {
-    title: 'Gender',
-    dataIndex: 'gender',
-    key: 'gender',
+    title: "Overall",
+    dataIndex: "overall",
+    key: "overall",
+    sorter: (a, b) => a.overall - b.overall,
   },
   {
-    title: 'Age',
-    dataIndex: 'age',
-    key: 'age',
+    title: "Gender",
+    dataIndex: "gender",
+    key: "gender",
+    sorter: (a, b) => a.gender - b.gender,
   },
   {
-    title: 'Points',
-    dataIndex: 'points',
-    key: 'points',
+    title: "Age",
+    dataIndex: "age",
+    key: "age",
+    sorter: (a, b) => a.age - b.age,
+  },
+  {
+    title: "Points",
+    dataIndex: "points",
+    key: "points",
+    sorter: (a, b) => a.points - b.points,
   },
 ];
